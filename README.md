@@ -131,8 +131,30 @@ Start your Flask server:
   ```bash
   python app.py
   ```
-Your app should now be running at http://127.0.0.1:5000
+### Your app should now be running at http://127.0.0.1:5000
 
-   
+---
+
+## API Endpoints
+### Authentication
+
+1. Register: POST /api/roamx/auth/register
+Payload example:
+
+  ```json
+  {
+    "email": "user@example.com",
+    "password": "securepassword"
+  }
+  ```
+Login: POST /api/roamx/auth/login
+Payload example:
+
+  ```json
+  {
+    "email": "user@example.com",
+    "password": "securepassword"
+  }
+Response: Returns a JWT token for authenticated requests.
 
 
