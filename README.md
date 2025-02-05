@@ -13,7 +13,6 @@ RoamX is an AI-powered mobile business management platform designed specifically
 - [Why RoamX?](#why-roamx)
 - [Technology Stack](#technology-stack)
 - [Getting Started](#getting-started)
-    |
   - [Prerequisites](#prerequisites)
   - [Installation & Setup](#installation--setup)
 - [API Endpoints](#api-endpoints)
