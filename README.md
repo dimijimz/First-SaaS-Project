@@ -157,6 +157,7 @@ Payload example:
   }
   ```
 Response: Returns a JWT token for authenticated requests.
+
 ### Order Management
 Create Order: POST /api/roamx/order/
 Payload example:
@@ -181,7 +182,8 @@ Payload example:
     "local_event": 1
   }
   ```
-  *Response: Returns a predicted demand value using our AI model. Requires JWT Auth in header.*
+  Response: Returns a predicted demand value using our AI model.
+  *Requires JWT Auth in header.*
 
 ### Route Optimization (placeholder)
 Optimize Route: POST /api/routes/optimize
@@ -196,8 +198,26 @@ Payload example:
     ]
   }
   ```
-  Response: Returns a placeholder message. *Requires JWT auth in header.*
+  Response: Returns a placeholder message.
+  *Requires JWT auth in header.*
 
-  ---
+---
 
   ## Testing Your API
+  You can test your endpoints using:
+  1. Thunder Client
+  2. Postman
+  3. cURL
+
+---
+
+## Roadmap & Future Enhancements
+- **Frontend Development:** Build a modern, responsive UI using React.
+- **Advanced AI Models:** Enhance demand forecasting with real-world data and improved machine learning models.
+- **Mapping Integration:** Fully implement route Optimization using Google Maps.
+- **Notification & Payment Integration:** Add support for Twilio/SendGrid and Stripe/Square to streamline operations.
+- **User Feedback:** Iterate based on early user testing and real-world use cases.
+
+---
+
+## 
