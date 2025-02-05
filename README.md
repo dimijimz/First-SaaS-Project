@@ -220,4 +220,7 @@ Payload example:
 
 ---
 
-## 
+## Contributing
+#### Contributions are welcome! If you'd like to improve RoamX, please fork the repo, create your feature branch, and submit a pull request. For major changes, please open an issue first to discuss your ideas!
+
+---
