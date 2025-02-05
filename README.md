@@ -182,3 +182,22 @@ Payload example:
   }
   ```
   *Response: Returns a predicted demand value using our AI model. Requires JWT Auth in header.*
+
+### Route Optimization (placeholder)
+Optimize Route: POST /api/routes/optimize
+Payload example:
+
+  ```json
+  {
+    "current_location": {"lat": 40.7128, "lng": -74.0060},
+    "destinations": [
+      {"lat": 40.730610, "lng": -73.935242},
+      {"lat": 40.752726, "lng": -73.977229}
+    ]
+  }
+  ```
+  Response: Returns a placeholder message. *Requires JWT auth in header.*
+
+  ---
+
+  ## Testing Your API
