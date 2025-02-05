@@ -94,3 +94,9 @@ RoamX is a prototype for an integrated management system that leverages artifici
    ```bash
    git clone https://github.com/dimijimz/First-SaaS-Project.git
    cd First-SaaS-Project
+
+2. **Install Dependencides:**
+
+   ```bash
+   python3 -m venv venv
+   source venv/bin/activate
