@@ -21,6 +21,7 @@ RoamX is an AI-powered mobile business management platform designed specifically
 - [Contributing](#contributing)
 - [License](#license)
 - [Contact](#contact)
+- [Final Thoughts] (#final-thoughts)
 
 ---
 
