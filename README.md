@@ -138,7 +138,7 @@ Start your Flask server:
 ## API Endpoints
 ### Authentication
 
-1. Register: POST /api/roamx/auth/register
+Register: POST /api/roamx/auth/register
 Payload example:
 
   ```json
@@ -156,5 +156,29 @@ Payload example:
     "password": "securepassword"
   }
 Response: Returns a JWT token for authenticated requests.
+  ```
+### Order Management
+Create Order: POST /api/roamx/order/
+Payload example:
+  ```json
+  {
+    "total_amount": 25.50
+  }
+*Requires JWT auth in header*
+```
+Retrieve Orders: GET /api/roamx/orders/
+*Requires JWT auth in header.*
 
+### Demand Forecasting
+Forecast Demand: POST /api/roamx/forecast/forecast
+Payload example:
 
+  ```json
+  {
+    "temperature": 75,
+    "humidity": 50,
+    "day_of_week": 5,
+    "local_event": 1
+  }
+  *Response: Returns a predicted demand value using our AI model. Requires JWT Auth in header.*
+  
