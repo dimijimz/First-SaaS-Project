@@ -221,6 +221,24 @@ Payload example:
 ---
 
 ## Contributing
+
 #### Contributions are welcome! If you'd like to improve RoamX, please fork the repo, create your feature branch, and submit a pull request. For major changes, please open an issue first to discuss your ideas!
 
 ---
+
+## License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+---
+
+## Contact
+
+For questions, feedback, or collaboration opportunities, **please** reach out via:
+- GitHub Issues
+- My email: dimijimz@gmail.com
+- Discord: @Dizzle63
+
+---
+
+### With RoamX, our goal is to revolutionize how mobile businesses operate by providing actionable, AI-driven insights and streamlined mangement tools. Whether you're starting small or looking for scalability, RoamX is here to help you succeed.
