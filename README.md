@@ -155,8 +155,8 @@ Payload example:
     "email": "user@example.com",
     "password": "securepassword"
   }
-Response: Returns a JWT token for authenticated requests.
   ```
+Response: Returns a JWT token for authenticated requests.
 ### Order Management
 Create Order: POST /api/roamx/order/
 Payload example:
@@ -164,8 +164,8 @@ Payload example:
   {
     "total_amount": 25.50
   }
+  ```
 *Requires JWT auth in header*
-```
 Retrieve Orders: GET /api/roamx/orders/
 *Requires JWT auth in header.*
 
@@ -180,5 +180,5 @@ Payload example:
     "day_of_week": 5,
     "local_event": 1
   }
+  ```
   *Response: Returns a predicted demand value using our AI model. Requires JWT Auth in header.*
-  
