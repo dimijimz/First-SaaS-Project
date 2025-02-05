@@ -107,3 +107,32 @@ RoamX is a prototype for an integrated management system that leverages artifici
    pip install -r requirements.txt
 
 4. **Configure Environment Variables:**
+
+Create a .env file in the root of the project and add:
+
+   ```env
+   FLASK_APP=app.py
+   FLASK_ENV=development
+   SECRET_KEY=your_super_secret_key
+   JWT_SECRET_KEY=your_jwt_secret
+   DATABASE_URL=postgresql://dimijimz@localhost:5432/roamx
+   ```
+
+5. **Setup the Database:**
+Ensure your PostgreSQL server is running and create the database:
+
+   ```bash
+   createdb -U dimijimz roamx
+   ```
+
+6. **Run the App:**
+Start your Flask server:
+
+  ```bash
+  python app.py
+  ```
+Your app should now be running at http://127.0.0.1:5000
+
+   
+
+
